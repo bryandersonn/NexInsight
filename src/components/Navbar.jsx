@@ -11,8 +11,8 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between items-center h-20 w-full mx-auto px-4 text-white fixed z-50 bg-black'>
-      <img src={logo} alt="logo" className='w-28' />
-      <h1 className='w-full text-3xl font-bold'>NexInsight</h1>
+      <a href="#home"><img src={logo} alt="logo" className='w-28' /></a>
+      <h1 className='w-full text-3xl font-bold cursor-default'>NexInsight</h1>
       <ul className='hidden md:flex'>
         <a href="#home">
           <li className='p-4 text-[#00df9a] cursor-pointer font-bold hover:underline underline-offset-8 transition duration-300 ease-in-out'>Home</li>

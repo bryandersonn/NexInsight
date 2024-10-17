@@ -30,8 +30,8 @@ const Hero = () => {
               loop
             />
           </div>
-          <p className='md:text-2xl text-xl font-bold text-gray-500 md:py-6'>From Data to Insight, Your Next Step Awaits.</p>
-          <a href="#product"><button className='bg-[#00df9a] w-[200px] rounded-md font-medium mx-auto py-3 mt-2 text-black'>Get Started</button></a>
+          <p className='mx-2 my-4 md:text-2xl text-xl font-bold text-gray-500 md:py-6'>From Data to Insight, Your Next Step Awaits.</p>
+          <a href="#product"><button className='bg-[#00df9a] w-[200px] rounded-md font-bold mx-auto py-3 mt-2 text-black hover:scale-110 duration-300'>Get Started</button></a>
         </div>
       </div>
     </section>
