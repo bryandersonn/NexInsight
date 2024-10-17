@@ -17,11 +17,11 @@ const Navbar = () => {
         <a href="#home">
           <li className='p-4 text-[#00df9a] cursor-pointer font-bold hover:underline underline-offset-8 transition duration-300 ease-in-out'>Home</li>
         </a>
-        <a href="#product">
-          <li className='p-4 text-[#00df9a] cursor-pointer font-bold hover:underline underline-offset-8 transition duration-300 ease-in-out'>Products</li>
-        </a>
         <a href="#about">
           <li className='p-4 text-[#00df9a] cursor-pointer font-bold hover:underline underline-offset-8 transition duration-300 ease-in-out'>About</li>
+        </a>
+        <a href="#product">
+          <li className='p-4 text-[#00df9a] cursor-pointer font-bold hover:underline underline-offset-8 transition duration-300 ease-in-out'>Products</li>
         </a>
         <a href="#contact">
           <li className='p-4 text-[#00df9a] cursor-pointer font-bold hover:underline underline-offset-8 transition duration-300 ease-in-out'>Contact</li>
@@ -35,11 +35,11 @@ const Navbar = () => {
         <a href="#home">
           <li className='p-4 text-[#00df9a] cursor-pointer font-bold hover:underline'>Home</li>
         </a>
-        <a href="#product">
-          <li className='p-4 text-[#00df9a] cursor-pointer font-bold hover:underline'>Products</li>
-        </a>
         <a href="#about">
           <li className='p-4 text-[#00df9a] cursor-pointer font-bold hover:underline'>About</li>
+        </a>
+        <a href="#product">
+          <li className='p-4 text-[#00df9a] cursor-pointer font-bold hover:underline'>Products</li>
         </a>
         <a href="#contact">
           <li className='p-4 text-[#00df9a] cursor-pointer font-bold hover:underline'>Contact</li>
