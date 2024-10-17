@@ -4,6 +4,29 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00df9a; 
+  border-radius: 6px; 
+  border: 1px solid #00df9a; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00bf82;   
+}
+
+
 @layer base{
   html{
     font-family: "Raleway", sans-serif;
@@ -12,4 +35,12 @@
 
 body {
   background-color: #000300;
+}
+
+html {
+  user-select: none; /* Non-standard syntax */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  z-index: 10000;
 }
